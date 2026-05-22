@@ -1,0 +1,16 @@
+project_name: yuc
+
+builds:
+  - main: ./cmd/yuc
+    binary: yuc
+
+archives:
+  - formats: [tar.gz]
+
+checksum:
+  name_template: checksums.txt
+
+release:
+  github:
+    owner: harshadixit12
+    name: yuc
