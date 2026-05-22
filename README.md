@@ -4,10 +4,18 @@ Stands for YAML Unicode Check.
 
 Sketchy unicode characters can hide in plain sight, and can cause unpredictable failures in your declarative configurations. YUC helps you find these.
 
-## How to install
+## Install
 
+Install `yuc` with a single command:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/harshadixit12/yuc/refs/heads/main/install.sh | bash
+```
 
 ## How to use
+```bash
+yuc myfile.yaml
+```
 
 ## License
 
