@@ -1,0 +1,4 @@
+# Custom config to disable ZERO_WIDTH
+categories:
+  ZERO_WIDTH:
+    enabled: false

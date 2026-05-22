@@ -1,0 +1,5 @@
+# A safe YAML file
+key: value
+list:
+  - item1
+  - item2

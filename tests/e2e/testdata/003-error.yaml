@@ -1,0 +1,3 @@
+# A YAML file with a BiDi override
+key: val‮ue
+#            ^ U+202E here

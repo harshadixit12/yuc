@@ -1,0 +1,4 @@
+# Custom config to bump ZERO_WIDTH to error
+categories:
+  ZERO_WIDTH:
+    severity: error
