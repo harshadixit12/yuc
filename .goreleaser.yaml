@@ -1,14 +1,28 @@
+version: 2
+
 project_name: yuc
 
 builds:
-  - main: ./cmd/yuc
-    binary: yuc
+  - binary: yuc
+    main: .
+    goos:
+      - linux
+      - darwin
+      - windows
+    goarch:
+      - amd64
+      - arm64
 
 archives:
   - formats: [tar.gz]
+    name_template: >-
+      {{ .ProjectName }}_
+      {{ .Version }}_
+      {{ .Os }}_
+      {{ .Arch }}
 
 checksum:
-  name_template: checksums.txt
+  name_template: 'checksums.txt'
 
 release:
   github:
